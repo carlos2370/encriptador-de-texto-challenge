@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>encriptador_de_texto_challenge</title>
+</head>
+
+<body>
+    <header> 
+        <img class="logo" src="./assets/Logo.png" alt="Logo de Alura Latam en color azul">     
+    </header>
+    <main>
+        <section class="side__one">
+            <textarea class="ingreso__texto" id="inputTexto" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="mensaje__aviso hidden">Por favor, ingrese solo letras minúsculas, sin tildes ni símbolos especiales.</div>
+            <div class="requisitos__de__uso">
+                <img src="./assets/bi_exclamation-circle-fill.png" alt="Signo de exclamación inicial">
+                <p>Solo letras minúsculas y sin tildes.</p>                        
+            </div>
+            <div class="botones__de__accion">
+                <button id="btnEncriptar" class="boton__encriptar">Encriptar</button>
+                <button id="btnDesencriptar" class="boton__desencriptar">Desencriptar</button>
+            </div>              
+        </section> 
+        <section class="side__two">
+            <textarea class="egreso__texto hidden" id="outputTexto"></textarea>
+            <div class="imagen">
+                <img class="dibujo" src="./assets/Muñeco.png" alt="Dibujo de una persona con una lupa en la mano">
+                <div class="mensaje__inicial">
+                    <h1>Ningún mensaje fue encontrado</h1>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>            
+            <div>
+                <button class="copiar hidden" id="btnCopiar">Copiar</button>
+            </div>           
+        </section>  
+    </main>   
+    <footer class="piePagina">Desarrollado por Carlos Vargas para Alura Latam-Oracle ONE.</footer>                       
+    <script src="encriptador.js"></script>
+</body>
+</html>
