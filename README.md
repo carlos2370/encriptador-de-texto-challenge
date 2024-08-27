@@ -5,4 +5,4 @@
 - No se pueden utilizar caracteres especiales, letras mayúsculas y números.
 - El proyecto permite encriptar y a su vez desencriptar una palabra, oración o parrafo.
 - El encriptador solo realiza cambios a las vocales presentes mediante el remplazo de estas por unas llaves previamente definidas.
-- El proyeco propuesto cuenta con las media query que le permiten ser visualizado y utilizado en tablets y teléfonos móviles.
+- El proyecto propuesto cuenta con las media query que le permiten ser visualizado y utilizado en tablets y teléfonos móviles.
